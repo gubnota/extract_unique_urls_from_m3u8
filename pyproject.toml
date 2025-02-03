@@ -1,0 +1,7 @@
+[project]
+name = "extract_unique_urls_from_m3u8"
+version = "0.1.0"
+description = "it searches unique urls from m3u8 file, downloads chunks, combine them into one m4a or m4v (typically) or ts file"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["requests>=2.32.3"]
